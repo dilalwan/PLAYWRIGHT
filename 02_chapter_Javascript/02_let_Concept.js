@@ -8,4 +8,4 @@ for (let a = 0; a < 10; a++) {
 
 function badCodeFn() {
     console.log("Hello");
-}
+} 
