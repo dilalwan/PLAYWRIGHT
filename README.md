@@ -38,15 +38,55 @@ This repo is a study playground for JavaScript basics. Files are intentionally s
 	- [17_Logical_Operator.js](05_chapter_Operator/17_Logical_Operator.js)
 	- [18_Confusing_Comparison.js](05_chapter_Operator/18_Confusing_Comparison.js)
 	- [19_Confusing_Comparison_2.js](05_chapter_Operator/19_Confusing_Comparison_2.js)
+	- [20_Question.js](05_chapter_Operator/20_Question.js)
+	- [21_String_Operator.js](05_chapter_Operator/21_String_Operator.js)
+	- [22_Ternary_Operator.js](05_chapter_Operator/22_Ternary_Operator.js)
+	- [23_IQ.js](05_chapter_Operator/23_IQ.js)
+	- [24_IQ2.js](05_chapter_Operator/24_IQ2.js)
+	- [25_IQ3.js](05_chapter_Operator/25_IQ3.js)
+	- [26_IQ4.js](05_chapter_Operator/26_IQ4.js)
+	- [27_IQ5.js](05_chapter_Operator/27_IQ5.js)
+	- [28_Nested_Ternary_Operator.js](05_chapter_Operator/28_Nested_Ternary_Operator.js)
+	- [29_IQ_Nested_Ternary.js](05_chapter_Operator/29_IQ_Nested_Ternary.js)
+	- [30_IQ2_Nested_Ternary.js](05_chapter_Operator/30_IQ2_Nested_Ternary.js)
+	- [31_Type_Operator.js](05_chapter_Operator/31_Type_Operator.js)
+	- [32_Inc_Dec_Op.js](05_chapter_Operator/32_Inc_Dec_Op.js)
+	- [33_Advanced_Inc.js](05_chapter_Operator/33_Advanced_Inc.js)
+	- [34_Inc_Part2.js](05_chapter_Operator/34_Inc_Part2.js)
+	- [35_Decrement_Op.js](05_chapter_Operator/35_Decrement_Op.js)
+	- [36_Null_Coalescing.js](05_chapter_Operator/36_Null_Coalescing.js)
 
-- 06_chapter_Statement (empty)
-- 07_chapter_Switch (empty)
-- 08_chapter_UserInputs (empty)
+
+- 06_chapter_Statement
+	- [37_IQ.js](06_chapter_Statement/37_IQ.js)
+	- [38_IQ2.js](06_chapter_Statement/38_IQ2.js)
+	- [38_Multiple_Condition.js](06_chapter_Statement/38_Multiple_Condition.js)
+
+- 07_chapter_Switch
+	- [39_Switch.js](07_chapter_Switch/39_Switch.js)
+	- [40_IQ.js](07_chapter_Switch/40_IQ.js)
+	- [41_IQ2.js](07_chapter_Switch/41_IQ2.js)
+	- [42_Real_API_Testing.js](07_chapter_Switch/42_Real_API_Testing.js)
+	- [43_Switch_Group.js](07_chapter_Switch/43_Switch_Group.js)
+	- [44_Switch_IQ.js](07_chapter_Switch/44_Switch_IQ.js)
+	- [45_Switch_IQ2.js](07_chapter_Switch/45_Switch_IQ2.js)
+	- [46_Switch_IQ3.js](07_chapter_Switch/46_Switch_IQ3.js)
+	- [47_Switch_IQ4.js](07_chapter_Switch/47_Switch_IQ4.js)
+
+- 08_chapter_UserInputs
+	- [48_JS.js](08_chapter_UserInputs/48_JS.js)
+	- [49_Node_UI.js](08_chapter_UserInputs/49_Node_UI.js)
+	- [50_Prompt.js](08_chapter_UserInputs/50_Prompt.js)
+	- [51_FS.js](08_chapter_UserInputs/51_FS.js)
 - 09_chapter_Loops (empty)
 - 10_chapter_Arrays (empty)
 - 11_chapter_Functions (empty)
 - 12_chapter_Fn_Closure (empty)
 - 13_chapter_Strings (empty)
+
+- HACKER_RANK
+	- [1_Switch.js](HACKER_RANK/1_Switch.js)
+	- [2_IfElse.js](HACKER_RANK/2_IfElse.js)
 
 ## Repository Structure & Contents
 
@@ -80,15 +120,18 @@ This repo is a study playground for JavaScript basics. Files are intentionally s
 	- `17_Logical_Operator.js` — `&&`, `||`, and `!` usage.
 	- `18_Confusing_Comparison.js` — Tricky comparison behavior in JavaScript.
 	- `19_Confusing_Comparison_2.js` — Deeper edge cases involving `null`, `undefined`, and coercion.
+	- `20_Question.js` through `36_Null_Coalescing.js` — Additional operator exercises and quizzes.
 
-- `06_chapter_Statement/` — Statements (to be added)
-	- Planned examples for `if`, `switch`, `try/catch`, and other statement patterns.
+- `06_chapter_Statement/` — Conditional statement exercises.
+	- `37_IQ.js`, `38_IQ2.js`, and `38_Multiple_Condition.js` — Practice questions using conditions.
 
-- `07_chapter_Switch/` — Switch statement examples (to be added)
-	- Planned examples for `switch` cases and control flow.
+- `07_chapter_Switch/` — Switch statement examples and exercises.
+	- Files `39_Switch.js` through `47_Switch_IQ4.js` — Switch cases, grouping, and practice questions.
 
-- `08_chapter_UserInputs/` — User input examples (to be added)
-	- Planned beginner-friendly input exercises.
+- `08_chapter_UserInputs/` — User input examples.
+	- `48_JS.js` and `49_Node_UI.js` — Input basics.
+	- `50_Prompt.js` — Reads a number with the `prompt-sync` package.
+	- `51_FS.js` — Reads standard input with Node's built-in `fs` module.
 
 - `09_chapter_Loops/` — Looping constructs (to be added)
 	- Planned examples using `for`, `while`, and `do...while`.
@@ -105,6 +148,9 @@ This repo is a study playground for JavaScript basics. Files are intentionally s
 - `13_chapter_Strings/` — String operations and methods (to be added)
 	- Planned examples for string manipulation and formatting.
 
+- `HACKER_RANK/` — HackerRank practice solutions.
+	- `1_Switch.js` and `2_IfElse.js` — Solutions for switch and conditional exercises.
+
 ## How to run examples
 
 Install Node.js (v14+) and run any example with:
@@ -118,6 +164,21 @@ Example:
 ```bash
 node 01_chapter_Javascript/01_Hello_World.js
 ```
+
+Run interactive examples from the integrated Terminal, not the read-only Output panel:
+
+```bash
+node 08_chapter_UserInputs/51_FS.js
+```
+
+For `50_Prompt.js`, install its dependency once before running it:
+
+```bash
+npm install prompt-sync
+node 08_chapter_UserInputs/50_Prompt.js
+```
+
+On Windows, finish standard input in `51_FS.js` with `Ctrl+Z`, then `Enter`.
 
 ## Contributing guidelines
 
